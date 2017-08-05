@@ -52,4 +52,4 @@ production:
   <<: *default
   database: ecommerce_production
   username: ecommerce
-  password: <%= ENV['ECOMMERCE_DATABASE_PASSWORD'] %>
+  password: 3commerce #<%= ENV['ECOMMERCE_DATABASE_PASSWORD'] %>
