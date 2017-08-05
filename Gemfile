@@ -68,6 +68,6 @@ gem 'spree_static_content', github: 'spree-contrib/spree_static_content'
 
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
 
-gem 'spree_simple_theme', path: '../spree_simple_theme'
+gem 'spree_simple_theme', github: 'htorohn/spree_simple_theme'
 
 

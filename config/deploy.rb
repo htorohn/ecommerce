@@ -2,15 +2,14 @@
 server '192.168.37.135', port: 22, roles: [:web, :app, :db], primary: true
 
 #set :repo_url,        'git@example.com:username/appname.git'
-set :deploy_via, :copy
+set :repo_url,        'git@github.com:htorohn/ecommerce.git'
+#set :deploy_via, :copy
 set :application,     'ecommerce'
 set :user,            'spree'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
-set :scm, :none
-set :repository, "."
-set :deploy_via, :copy
+
 
 # Don't change these unless you know what you're doing
 set :pty,             true
